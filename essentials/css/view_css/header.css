@@ -1,0 +1,33 @@
+body{
+  font-family:  Helvetica,Arial,sans-serif;
+      background-color: #e8bb4a;
+
+}
+#navBannerImage{
+  width:100px; height:50px;
+}
+
+#navInput{
+  width:500px;
+  padding:10px;
+}
+#navinput:focus {outline:none; !important;}
+
+.navbar{
+  top:0;
+}
+
+.leftNav:hover {
+  font-size: 20px;
+  font-weight: bolder;
+  background-color: grey;
+}
+
+@font-face {
+  font-family: 'B612';
+  font-style: normal;
+  font-weight: 700;
+  src: local('B612 Bold'), local('B612-Bold'),
+       url('../fonts/b612-v4-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/b612-v4-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
